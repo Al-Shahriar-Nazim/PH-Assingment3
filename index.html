@@ -51,7 +51,7 @@
     <!-- header start -->
     <header>
       <!-- navbar section -->
-      <nav class="container mx-auto">
+      <nav class="container mx-auto shadow-sm">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -133,9 +133,10 @@
               />
             </svg>
 
-            <div class="bg-[#ABEF6F] flex items-center px-2 rounded-full">
-              <a
-                class="font-semibold text-[18px]  py-1 text-center"
+            <div
+              class="bg-[#ABEF6F] flex items-center px-2 rounded-full hover:scale-105 transition-all duration-300 hover:bg-[#7dad53] hover:text-white"
+            >
+              <a class="font-semibold text-[18px] py-1 text-center"
                 >Book Consult</a
               >
               <img
@@ -149,7 +150,39 @@
       </nav>
     </header>
     <!-- main start -->
-    <main></main>
+    <main>
+      <!-- banner section -->
+      <section class="container mx-auto">
+        <div>
+          <img src="assets/banner.png" alt="banner img" class="mx-auto" />
+        </div>
+        <div>
+          <h3
+            class="font-bold mt-3 md:mt-6 md:font-extrabold text-4xl md:text-6xl text-center text-[#212121]"
+          >
+            A barn house of this design has <br />
+            a striking appearance
+          </h3>
+          <p
+            class="mt-6 md:mt-6 lg:w-[800px] md:w-[600px] p-2 text-center mx-auto text-[#494949]"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <div
+            class="bg-[#cbe9a8] px-3 py-2 w-[170px] rounded-full flex items-center mx-auto md:mt-8 mt-4"
+          >
+            <p class="text-xl font-bold text-center">View Details</p>
+            <img
+              src="assets/arrow-up.png"
+              class="w-5 h-5 bg-[#ABEF6F] rounded-full ml-2"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- footer start -->
     <footer></footer>
   </body>
